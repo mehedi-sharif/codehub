@@ -1,0 +1,54 @@
+// Common Styles
+.section {
+	padding:60px 0;
+}
+.snippet-modal {
+	background:#fff;
+	.modal-dialog {
+		max-width: 80%;
+		transform: translate(0, 5%)!important;
+	}
+}
+.close {
+	font-size:45px;
+}
+
+
+
+
+
+
+
+
+
+// Nav Style
+.code-search {
+	.form-control {
+		width: 100%;
+		border-radius:4px;
+		color:#fff;
+		&:focus {
+			background:transparent;
+			border:1px solid #fff;
+		}
+	}
+}
+
+
+
+
+
+
+
+// Dashboard Page Style
+.code-showcase {
+	.codecard {
+		h4 {
+			margin-top:10px;
+			color:#333;
+		}
+		p {
+			color:#666;
+		}
+	}
+}

@@ -1,0 +1,43 @@
+
+
+@import 'partials/variables';
+@import 'partials/mixins';
+
+// Plugins CSS
+@import "partials/plugins/plugin-bootstrap-switch";
+@import "partials/plugins/plugin-nouislider";
+@import "partials/plugins/plugin-datepicker";
+
+// Core CSS
+@import "partials/buttons";
+@import "partials/inputs";
+@import "partials/checkboxes-radio";
+@import "partials/progress";
+@import "partials/badges";
+@import "partials/pagination";
+@import "partials/typography";
+@import "partials/misc";
+@import "partials/pills";
+
+// components
+@import "partials/social-buttons";
+@import "partials/tabs";
+@import "partials/navbar";
+@import "partials/dropdown";
+@import "partials/alerts";
+@import "partials/images";
+@import "partials/popups";
+@import "partials/nucleo-outline";
+@import "partials/modals";
+@import "partials/carousel";
+@import "partials/cards";
+@import "partials/footers";
+
+// example pages and sections
+@import "partials/example-pages";
+@import "partials/sections";
+
+
+@import "modify";
+
+@import "partials/responsive";
